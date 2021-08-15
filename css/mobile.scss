@@ -1,0 +1,58 @@
+$light-grayish-blue: hsl(240, 5%, 91%);
+
+@media screen and (max-width:375px) {
+    body {
+        width: 280px;
+        height: 800px;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .accordion {
+        background: url('../images/bg-pattern-mobile.svg') no-repeat top center $light-grayish-blue;
+        width: 270px;
+        height: 700px;
+        margin-top: 50px;
+        margin-left: 20px;
+        overflow: visible;
+    }
+    .woman-mobile {
+        width: 230px;
+        transform: translate(10%, -95%);
+    }
+    .box-mobile {
+        position: relative;
+        z-index: 10;
+        width: 80px;
+        transform: translate(25%, -20%);
+    }
+    .faq {
+        max-width: 200px;
+        margin-left: 40px;
+        &.first {
+            margin-top: -180px;
+        }
+        &.second {
+            margin-top: -80px;
+        }
+        &.third {
+            margin-top: 20px;
+        }
+        &.fourth {
+            margin-top: 120px;
+        }
+        &.fifth {
+            margin-top: 200px;
+        }
+    }
+    h3 {
+        font-size: 12px;
+        width: 500px;
+    }
+    .attribution {
+        margin-top: 300px;
+    }
+}

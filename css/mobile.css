@@ -1,0 +1,59 @@
+@media screen and (max-width: 375px) {
+  body {
+    width: 280px;
+    height: 800px;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .accordion {
+    background: url("../images/bg-pattern-mobile.svg") no-repeat top center #e7e7e9;
+    width: 270px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 20px;
+    overflow: visible;
+  }
+  .woman-mobile {
+    width: 230px;
+    -webkit-transform: translate(10%, -95%);
+            transform: translate(10%, -95%);
+  }
+  .box-mobile {
+    position: relative;
+    z-index: 10;
+    width: 80px;
+    -webkit-transform: translate(25%, -20%);
+            transform: translate(25%, -20%);
+  }
+  .faq {
+    max-width: 200px;
+    margin-left: 40px;
+  }
+  .faq.first {
+    margin-top: -180px;
+  }
+  .faq.second {
+    margin-top: -80px;
+  }
+  .faq.third {
+    margin-top: 20px;
+  }
+  .faq.fourth {
+    margin-top: 120px;
+  }
+  .faq.fifth {
+    margin-top: 200px;
+  }
+  h3 {
+    font-size: 12px;
+    width: 500px;
+  }
+  .attribution {
+    margin-top: 300px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
